@@ -1,0 +1,356 @@
+(footprint "Taoglas_GGBLA.125.A_GNSS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Passive All-band High Precision GNSS Ceramic Loop Antenna, https://www.taoglas.com/product/ggbla-125-a-gps-l1-l2-l5-glonass-beidou-ceramic-loop-antenna/")
+	(tags "RF LP loop antenna GPS GNSS RTK CLAS")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3cb7f9f-c80b-4a15-a28f-8b9f36c1446f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Taoglas_GGBLA.125.A_GNSS"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01c53e3e-5792-4c9b-b8b5-64172b7cc7d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d473496-1949-485c-8ba5-8aeaeb4615be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6936fb1f-527a-4efc-95ce-bfb4a9ad1bd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.4 -1.55)
+		(end -3.85 1.55)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "6273da1d-6fc1-49c4-b9c3-96dfb70bf4e2")
+	)
+	(fp_rect
+		(start -3.15 -1.55)
+		(end 3.15 1.55)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "4ffe5db2-a63f-4955-b0e9-7b65f5206729")
+	)
+	(fp_rect
+		(start 3.85 -1.55)
+		(end 5.4 1.55)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b8d53e11-a27a-4fc2-8312-b979207a3d5f")
+	)
+	(fp_line
+		(start -5 1.85)
+		(end 5 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d35f649a-fb0e-490a-ac54-67a94b09d73f")
+	)
+	(fp_rect
+		(start -5.3 -1.45)
+		(end -3.95 1.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a23c8136-9f85-4be8-a6f1-fbefac8cd16f")
+	)
+	(fp_rect
+		(start -3.05 -1.45)
+		(end 3.05 1.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "2842ccfb-ea2b-4f16-b2a1-f24942095abc")
+	)
+	(fp_rect
+		(start 3.95 -1.45)
+		(end 5.3 1.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e96a30da-a2cb-494c-984e-cbc4f0ee8d11")
+	)
+	(fp_line
+		(start -7.5 -1.8)
+		(end 7.5 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1908d0a4-a707-403f-9ec9-0d37d0bf32f7")
+	)
+	(fp_line
+		(start -6 -2)
+		(end 6 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "14687a87-de32-49c8-adf4-131db410b55d")
+	)
+	(fp_line
+		(start -6 2)
+		(end -6 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "12f1480f-9ec7-43dc-9cb8-9a094e27b94d")
+	)
+	(fp_line
+		(start 6 -2)
+		(end 6 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4494bc6f-9d98-44b0-9a54-0d99a86543a5")
+	)
+	(fp_line
+		(start 6 2)
+		(end -6 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cef3dd6-6773-4715-b9cc-0cecf7e9f1d4")
+	)
+	(fp_line
+		(start -5 -1.6)
+		(end 5 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "84386248-cddd-4aee-9e0f-36bfcb312863")
+	)
+	(fp_line
+		(start -5 1.6)
+		(end -5 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a4fd3722-047c-479d-ab2b-00ff2bf668b8")
+	)
+	(fp_line
+		(start 5 -1.6)
+		(end 5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "796831e0-52c2-43b3-895b-6ad6117ac1d3")
+	)
+	(fp_line
+		(start 5 1.6)
+		(end -5 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f94da5d9-3fbb-4930-b334-ad320800d3c0")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 -2.5 0)
+		(layer "Dwgs.User")
+		(uuid "60a012c5-906c-4bbd-9a17-493f7bef38d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2923934d-133a-4ae2-a6bf-16cce4756744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 7.7)
+		(size 1.3 1.3)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.05 -9.15) (xy 3.05 -6.25) (xy 0.65 -6.25) (xy 0.65 -0.55) (xy -0.65 -0.55) (xy -0.65 -6.25)
+					(xy -3.05 -6.25) (xy -3.05 -9.15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "283f5f02-b638-4890-b0e3-425bc598c495")
+	)
+	(pad "2" smd custom
+		(at -6.5 -0.95)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 2.55 -0.5) (xy 0.4 -0.5) (xy 0.4 0.5) (xy 1.2 0.5) (xy 1.2 2.4) (xy 2.55 2.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ba6ea94a-d12c-40d6-a167-858c36dc433c")
+	)
+	(pad "3" smd custom
+		(at 6.5 -0.95)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.55 -0.5) (xy -0.4 -0.5) (xy -0.4 0.5) (xy -1.2 0.5) (xy -1.2 2.4) (xy -2.55 2.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "31d5e8f3-d871-482a-a95d-7cfa43c0fdc5")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "131bcf0b-ee12-4699-a0e0-10b2e202a9e4")
+		(name "Antenna Keep-Out Area")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.5 -1.8) (xy 7.5 -1.8) (xy 7.5 8.35) (xy -7.5 8.35)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB_DIR}/Lib/RF_Antenna_extlib/Taoglas_GGBLA.125.A_GNSS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
