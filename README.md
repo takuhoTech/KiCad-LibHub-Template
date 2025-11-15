@@ -1,5 +1,5 @@
 # KiCad-LibHub-Template
-A tool for managing shared KiCad libraries.
+A tool for managing shared KiCad libraries
 
 ## Overview
 複数のKiCadプロジェクトに（グローバルライブラリを使わずに）共通の部品ライブラリを読み込ませるためのツール
