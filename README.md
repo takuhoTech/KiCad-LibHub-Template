@@ -29,8 +29,8 @@ A tool for managing shared KiCad libraries
    
 4. KiCadの「パスを設定」で環境変数を設定します.
    - 名前は `KICAD_USER_LIB_DIR`
-   - パスは `D:\GitHub\takuhoTech-KiCad-Libraries` のように `table_generator.pyw` が置かれているディレクトリを設定してください.
-   - `takuhoTech-KiCad-Libraries` への絶対パスが異なる複数の環境で同じライブラリテーブルを使えるようにするために環境変数を利用しています.
+   - パスは `D:\GitHub\KiCad-LibHub-Template` のように `table_generator.pyw` が置かれているディレクトリを設定してください.
+   - `KiCad-LibHub-Template` への絶対パスが異なる複数の環境で同じライブラリテーブルを使えるようにするために環境変数を利用しています.
 
 ## Tips
 - 部品の種類ごとにカテゴリ分けしてからシンボルとフットプリントに分けることで管理しやすくなります.
